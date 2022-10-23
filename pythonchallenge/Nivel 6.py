@@ -10,7 +10,7 @@ def get_order_extract():
     inicio = "90052"
     while inicio:
 
-        txt = open(rf"D:\Download\channel\{inicio}.txt", "r").read()
+        txt = open(rf"channel\{inicio}.txt", "r").read()
         txts_list.append(inicio)
         n = re.findall("(\d.*)", txt, re.UNICODE)
 
@@ -23,7 +23,7 @@ def extract_comments_zip(lista_order):
     """Apartir da lista da ordem de txt. Retorna comentarios zips"""
 
     li = []
-    zp = zipfile.ZipFile(r"D:\Download\channel.zip", mode="r")
+    zp = zipfile.ZipFile(r"channel.zip", mode="r")
     for files in lista_order:
 
         letra = re.findall("b'(\S)'", str(zp.getinfo(f"{files}.txt").comment), re.UNICODE)
