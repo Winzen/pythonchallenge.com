@@ -1,6 +1,6 @@
 <p align="center"><a href="http://www.pythonchallenge.com/index.php"><img src="https://cdn.discordapp.com/attachments/465998423145971713/1037922071973462066/image.png" width="1000" height="400"></a></p>
 <p align="center">:brazil: Aqui se encontra minhas soluçoes das charadas do Python Challenge</p>
-<p align="center">:us: Aqui se encontra minhas soluçoes das charadas do Python Challenge</p>
+<p align="center">:us: Here is my Python Challenges solutions</p>
 
 # About
   Python Challenge is a game in which each level can be solved by a bit of (Python) programming.
