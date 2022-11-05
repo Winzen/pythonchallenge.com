@@ -2,3 +2,5 @@
 
 # Spoiler
 :brazil: Aqui se encontra soluçoes do Python Challenge. Cuidado para não tomar Spoiler desnecessarios!.
+
+:us: Python Challenges solutions. Caution! Python Challenge spoiler  ahead
